@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import inheritedNonEnumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-nonenumerable-properties@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-inherited-nonenumerable-properties/tags). For example,
+
+```javascript
 import inheritedNonEnumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-nonenumerable-properties@v0.3.0-esm/index.mjs';
 ```
 
@@ -143,7 +148,7 @@ var pros = inheritedNonEnumerableProperties( f, 1 );
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import inheritedNonEnumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-nonenumerable-properties@v0.3.0-esm/index.mjs';
+import inheritedNonEnumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-nonenumerable-properties@esm/index.mjs';
 
 var hasSymbols = hasSymbolSupport();
 var props;
