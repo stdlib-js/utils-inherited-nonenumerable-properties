@@ -1,23 +1,5 @@
+"use strict";var q=function(n,e){return function(){return e||n((e={exports:{}}).exports,e),e.exports}};var h=q(function(d,g){
+var l=require('@stdlib/constants-float64-max-safe-integer/dist'),P=require('@stdlib/assert-is-positive-integer/dist').isPrimitive,p=require('@stdlib/assert-is-nonenumerable-property/dist'),c=require('@stdlib/utils-property-names/dist'),w=require('@stdlib/utils-property-symbols/dist'),f=require('@stdlib/utils-get-prototype-of/dist'),m=require('@stdlib/assert-has-own-property/dist'),y=require('@stdlib/error-tools-fmtprodmsg/dist');function E(n,e){var s,o,i,a,u,v,r,t;if(arguments.length>1){if(!P(e))throw new TypeError(y('1Ub45',e));u=e}else u=l;if(n==null)return[];for(i=f(n),s=[],o={},v=1;i&&v<=u;){for(a=c(i),t=0;t<a.length;t++)r=a[t],m(o,r)===!1&&p(i,r)&&s.push(r),o[r]=!0;for(a=w(i),t=0;t<a.length;t++)r=a[t],m(o,r)===!1&&p(i,r)&&s.push(r),o[r]=!0;i=f(i),v+=1}return s}g.exports=E
+});var b=h();module.exports=b;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Return an array of an object's inherited non-enumerable property names and symbols.
-*
-* @module @stdlib/utils-inherited-nonenumerable-properties
-*
-* @example
-* var inheritedNonEnumerableProperties = require( '@stdlib/utils-inherited-nonenumerable-properties' );
-*
-* var props = inheritedNonEnumerableProperties( [] );
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
